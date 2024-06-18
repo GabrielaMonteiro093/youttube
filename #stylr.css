@@ -1,0 +1,59 @@
+* , * ::before, *::after{
+    box-sizing: border-box;
+    font-family: roboto, arial;
+
+}
+body{
+    margin:0;
+}
+ 
+-video-selection{
+display: grid;
+grid-template-colums: repeat(auto-full,minmax(250px,1fr));
+gap: 3rem 1rem
+padding: 3rem 0;
+margin: 0 1.srem;
+border: 4px solid #ccc;
+
+}
+
+.video-selection:firts-child{
+    boder-top:nome;
+}
+
+.video-comtainer{
+    display: flex;
+    flex-direction: colum;
+}
+
+.thumbnaill{
+    position:relative
+    display: flex;
+}
+
+.thumbnail::before{
+    content: attr(data-duration);
+    position: absolute;
+    background-color: rgba(0, 0, 0, .85%);
+    color: white;
+    rigth; 5px;
+    botton;5px;
+    padding:. 1em . 3em;
+    bonder-radius: 3em;
+    font-size .9rem;
+
+}
+
+.thumbnail-image{
+    width: 100%;
+    heigth: 100%;
+    min-width: 250%;
+    min-heigth: 150%;
+    background-color:#aaa;
+}
+
+.video-lotton-selection{
+    display: flex;
+    aling; flex-start;
+    margin-top: 1rem
+}
